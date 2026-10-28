@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Doudou Zhang Profile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky identity sidebar on the left (photo, links, contact), one reading column on the right with a tab-style section index. Single person, academic profile. */
+:root {
+  --bg: #f1f4f8;
+  --surface: #ffffff;
+  --fg: #111a27;
+  --muted: #526071;
+  --line: #d5dde7;
+  --accent: #b45309;
+  --accent-ink: #ffffff;
+  --ph-bg: #fff3c4;
+  --ph-line: #c9a227;
+  --font-display: "Schibsted Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d141d; --surface: #151f2b; --fg: #e8edf3; --muted: #9aa8b8; --line: #263444;
+    --accent: #f5a524; --accent-ink: #1b1204; --ph-bg: #3b3312; --ph-line: #a98a1f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d141d; --surface: #151f2b; --fg: #e8edf3; --muted: #9aa8b8; --line: #263444;
+  --accent: #f5a524; --accent-ink: #1b1204; --ph-bg: #3b3312; --ph-line: #a98a1f;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 18px; line-height: 1.65; padding-inline: 16px; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; text-wrap: balance; margin: 0; }
+p { margin: 0; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.ph { background: var(--ph-bg); border-bottom: 1px dashed var(--ph-line); padding-inline: 2px; }
+.mono { font-family: var(--font-mono); }
+
+.draft { max-width: 1120px; margin: 16px auto 0; display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 10px 14px; font-family: var(--font-display); font-size: 15px; color: var(--muted); }
+.draft button { flex: none; font: inherit; font-size: 14px; color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 4px; padding: 2px 10px; cursor: pointer; }
+
+.page { max-width: 1120px; margin-inline: auto; display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 48px; padding-block: 36px 24px; align-items: start; }
+aside { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 20px); display: grid; gap: 22px; min-width: 0; font-family: var(--font-display); }
+.photo { width: 100%; aspect-ratio: 1 / 1; max-width: 100%; background: var(--surface); border: 1px dashed var(--ph-line); border-radius: 6px; display: grid; place-items: center; text-align: center; color: var(--muted); font-size: 14px; padding: 16px; }
+.photo b { display: block; font-size: 56px; color: var(--accent); letter-spacing: 0.02em; }
+aside h1 { font-size: 30px; font-weight: 700; }
+aside .role { color: var(--muted); font-size: 16px; margin-top: 6px; line-height: 1.4; }
+.k { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.side-block { display: grid; gap: 8px; font-size: 15.5px; line-height: 1.45; }
+.side-block a { word-break: break-word; }
+.metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding-block: 14px; border-block: 1px solid var(--line); }
+.metrics b { display: block; font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.metrics span { font-size: 13px; color: var(--muted); }
+
+main { min-width: 0; }
+.index { display: flex; flex-wrap: wrap; gap: 4px 22px; border-bottom: 1px solid var(--line); margin-bottom: 8px; font-family: var(--font-display); }
+.index a { color: var(--fg); text-decoration: none; font-size: 15px; font-weight: 700; padding-block: 12px; border-bottom: 3px solid transparent; }
+.index a:hover { border-bottom-color: var(--accent); }
+section { padding-block: 40px; border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
+section:last-of-type { border-bottom: 0; }
+section h2 { font-size: 28px; margin-bottom: 18px; }
+.lead { font-size: 21px; line-height: 1.55; max-width: 62ch; }
+.prose { max-width: 66ch; display: grid; gap: 14px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; padding: 0; list-style: none; }
+.chips li { font-family: var(--font-display); font-size: 15px; font-weight: 500; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 4px 12px; }
+.scheme { margin-top: 22px; font-family: var(--font-mono); font-size: 14px; color: var(--muted); overflow-x: auto; white-space: nowrap; padding-bottom: 4px; }
+
+.rows { list-style: none; margin: 0; padding: 0; }
+.rows li { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 4px 20px; padding-block: 14px; border-top: 1px solid var(--line); }
+.rows li:first-child { border-top: 0; padding-top: 0; }
+.rows .when { font-family: var(--font-mono); font-size: 13.5px; color: var(--muted); padding-top: 4px; font-variant-numeric: tabular-nums; }
+.rows .what { font-family: var(--font-display); font-weight: 700; font-size: 18px; line-height: 1.35; }
+.rows .sub { color: var(--muted); font-size: 16px; }
+.status { display: inline-block; font-family: var(--font-mono); font-size: 12px; border: 1px solid var(--line); border-radius: 3px; padding: 0 7px; margin-left: 6px; vertical-align: 2px; font-weight: 500; }
+.status.active { color: var(--accent); border-color: var(--accent); }
+.rows > li > div { min-width: 0; }
+
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px; }
+.two h3 { font-size: 19px; margin-bottom: 10px; }
+.two ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 17px; }
+.btn { display: inline-block; font-family: var(--font-display); font-weight: 700; font-size: 16px; text-decoration: none; padding: 10px 18px; border-radius: 4px; background: var(--accent); color: var(--accent-ink); margin-top: 18px; }
+footer { max-width: 1120px; margin-inline: auto; border-top: 1px solid var(--line); padding-block: 24px 40px; color: var(--muted); font-family: var(--font-display); font-size: 14.5px; }
+
+@media (max-width: 860px) {
+  .page { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  aside { position: static; grid-template-columns: 120px minmax(0, 1fr); gap: 16px 18px; align-items: start; }
+  aside .photo { grid-row: span 2; }
+  aside .photo b { font-size: 34px; }
+  aside .photo small { display: none; }
+  aside > .side-block, aside > .metrics { grid-column: 1 / -1; }
+  aside h1 { font-size: 26px; }
+}
+@media (max-width: 520px) {
+  .rows li { grid-template-columns: minmax(0, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<div class="draft" id="draft-note">
+  <p>Draft for review, Option A: profile page. Yellow-underlined text is a gap to fill. Everything else comes from the public Macquarie University researcher profile and should be checked by Dr Zhang before this goes live.</p>
+  <button type="button" id="draft-close">Hide</button>
+</div>
+
+<div class="page">
+  <aside>
+    <div class="photo"><div><b aria-hidden="true">DZ</b><small>Add a profile photo here</small></div></div>
+    <div>
+      <h1>Dr Doudou Zhang</h1>
+      <p class="role">Macquarie University Research Fellow<br>School of Engineering, Macquarie University</p>
+    </div>
+    <div class="metrics" aria-label="Citation metrics, as listed on the university profile">
+      <div><b>2,208</b><span>citations</span></div>
+      <div><b>21</b><span>h-index</span></div>
+      <p class="k" style="grid-column:1/-1;text-transform:none;letter-spacing:0">Figures from the university profile. Update before publishing.</p>
+    </div>
+    <div class="side-block">
+      <p class="k">Find me</p>
+      <a href="https://orcid.org/0000-0001-8784-5599">ORCID 0000-0001-8784-5599</a>
+      <a href="https://scholar.google.com/citations?user=tcXMEcgAAAAJ">Google Scholar</a>
+      <a href="https://researchers.mq.edu.au/en/persons/doudou-zhang/">Macquarie University profile</a>
+    </div>
+    <div class="side-block">
+      <p class="k">Contact</p>
+      <p><span class="ph">[email@mq.edu.au]</span></p>
+      <p><span class="ph">[Building, room, Macquarie University NSW 2109]</span></p>
+    </div>
+  </aside>
+
+  <main>
+    <nav class="index" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching and students</a>
+      <a href="#awards">Awards</a>
+      <a href="#career">Career</a>
+    </nav>
+
+    <section id="about">
+      <h2>About</h2>
+      <p class="lead">Dr Doudou Zhang is an early-career researcher working on solar-driven (photo)electrochemical catalysis, with the aim of turning sunlight, water and low-cost materials into chemical fuels.</p>
+      <p class="scheme" aria-hidden="true">2 H₂O → 2 H₂ + O₂ &nbsp;·&nbsp; N₂ + 3 H₂ → 2 NH₃ &nbsp;·&nbsp; biomass → green fuel</p>
+      <div class="prose" style="margin-top:18px">
+        <p>She joined Macquarie University in July 2024 as a Macquarie University Research Fellow, after five years as a research fellow at the Australian National University. Her PhD in materials science is from Shaanxi Normal University.</p>
+        <p><span class="ph">[Add two or three sentences in her own words: what she is working on now, what kind of collaborators and students she is looking for.]</span></p>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <div class="prose">
+        <p>The work sits between materials science and chemical engineering, and focuses on devices and catalysts that can be made at scale.</p>
+      </div>
+      <ul class="chips">
+        <li>Solar-driven (photo)electrochemical energy conversion</li>
+        <li>Earth-abundant, low-cost catalysts</li>
+        <li>Scalable electrolyser technology</li>
+        <li>Functional thin-film coatings</li>
+        <li>Electrochemical reactions and applications</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="rows">
+        <li>
+          <span class="when">2026</span>
+          <div><p class="what">Horizontal solar-driven platform for biomass conversion to green fuel <span class="status active">Active</span></p><p class="sub">Primary Chief Investigator · MQRIS26</p></div>
+        </li>
+        <li>
+          <span class="when">2025 – 2028</span>
+          <div><p class="what">Stand-alone zero-gap photoelectrochemical electrolyser for ammonia synthesis <span class="status active">Active</span></p><p class="sub">Chief Investigator, with Yijiao Jiang as Primary Chief Investigator · DP25</p></div>
+        </li>
+        <li>
+          <span class="when">2025</span>
+          <div><p class="what">AI-driven active-site engineering of bi-functional ternary metal (hydro)oxide amorphous catalysts <span class="status">Finished</span></p><p class="sub">Primary Chief Investigator, with H. Li · FSE-FVR2025</p></div>
+        </li>
+      </ul>
+      <p class="sub" style="margin-top:14px;color:var(--muted);font-size:16px"><span class="ph">[Add funders for each project. The university profile does not list them.]</span></p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="prose">
+        <p>The university profile lists 41 research outputs: 32 journal articles, 8 review articles and 1 book chapter.</p>
+        <p><span class="ph">[Add 5 to 8 selected publications here: title, authors, journal, year, DOI link. Ask Dr Zhang which ones she wants featured.]</span></p>
+      </div>
+      <a class="btn" href="https://scholar.google.com/citations?user=tcXMEcgAAAAJ">Full list on Google Scholar</a>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching and students</h2>
+      <div class="two">
+        <div>
+          <h3>Units</h3>
+          <ul>
+            <li>ENGG8405 Industrial Processes and Pollution Prevention (convenor)</li>
+            <li>MECH3005 / MECH6005 Manufacturing Engineering (lecturer)</li>
+            <li>MECH8204 Advanced Engineering Materials (lecturer)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Current PhD students</h3>
+          <ul>
+            <li>Abhishek Vijayan K, from 2026</li>
+            <li>Jiaxi Ding, from 2023 (ANU)</li>
+            <li>Parul Parul, from 2023</li>
+          </ul>
+          <p class="sub" style="margin-top:10px;color:var(--muted);font-size:16px"><span class="ph">[Confirm each student is happy to be named on a public page.]</span></p>
+        </div>
+      </div>
+      <div class="prose" style="margin-top:26px">
+        <p>Dr Zhang has also co-supervised five PhD students to completion at ANU, and supervises Masters and undergraduate thesis students at Macquarie.</p>
+        <p><span class="ph">[Add a short note for prospective students: what projects are available and how to get in touch.]</span></p>
+      </div>
+    </section>
+
+    <section id="awards">
+      <h2>Awards</h2>
+      <ul class="rows">
+        <li><span class="when">2026</span><div><p class="what">Finalist, STEM Sisters Awards</p><p class="sub">Environmental Impact category</p></div></li>
+        <li><span class="when">2025</span><div><p class="what">Faculty of Science and Engineering Excellence Award</p></div></li>
+        <li><span class="when">2024</span><div><p class="what">Best Oral Presentation</p><p class="sub"><span class="ph">[Add the conference name]</span></p></div></li>
+        <li><span class="when">2023</span><div><p class="what">Macquarie University Research Fellowship</p></div></li>
+      </ul>
+    </section>
+
+    <section id="career">
+      <h2>Career and education</h2>
+      <ul class="rows">
+        <li><span class="when">2024 – now</span><div><p class="what">Macquarie University Research Fellow</p><p class="sub">School of Engineering, Macquarie University</p></div></li>
+        <li><span class="when">2019 – 2024</span><div><p class="what">Research Fellow</p><p class="sub">Australian National University</p></div></li>
+        <li><span class="when">2018 – 2019</span><div><p class="what">Exchange PhD student</p><p class="sub">School of Photovoltaic and Renewable Energy Engineering, UNSW</p></div></li>
+        <li><span class="when">2015 – 2018</span><div><p class="what">PhD, Materials Science</p><p class="sub">Shaanxi Normal University</p></div></li>
+        <li><span class="when">2012 – 2014</span><div><p class="what">Master's, Materials Science and Engineering</p><p class="sub">Shaanxi Normal University</p></div></li>
+        <li><span class="when">2010 – 2012</span><div><p class="what">Bachelor's, Polymer Materials Science and Engineering</p><p class="sub">Henan University of Technology</p></div></li>
+      </ul>
+      <div class="prose" style="margin-top:26px">
+        <p>Service includes membership of the Transforming Energy Markets Research Centre and the Smart Green Cities Research Centre, Early Career Researcher representative roles in the School of Engineering and the Faculty Sustainability Community, and an editorial board role with <em>Nano-Micro Letters</em>.</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <p>Dr Doudou Zhang · School of Engineering, Macquarie University · Last updated <span class="ph">[date]</span></p>
+</footer>
+
+<script>
+  document.getElementById('draft-close').addEventListener('click', function () {
+    document.getElementById('draft-note').hidden = true;
+  });
+</script>
+
+</body>
+</html>
